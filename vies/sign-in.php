@@ -1,9 +1,9 @@
 <?php
 
 // 設定関連を読み込む
-include_once('./config.php');
+include_once('../config.php');
 // 便利な関数を読み込む
-include_once('./utill.php');
+include_once('../utill.php');
 
 ?>
 
