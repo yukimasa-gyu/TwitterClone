@@ -1,21 +1,21 @@
 <?php
 // 設定関連を読み込む
-include_once('./config.php');
+include_once('../config.php');
 // 便利な関数を読み込む
-include_once('./utill.php');
+include_once('../utill.php');
 ?>
 <!DOCTYPE html>
 <html lang="ja">
  
 <head>
-    <?php include_once('./vies/common/head.php'); ?>
+    <?php include_once('../vies/common/head.php'); ?>
     <title>つぶやく画面 / Twitterクローン</title>
     <meta name="description" content="つぶやく画面です">
 </head>
  
 <body class="home">
     <div class="container">
-        <?php include_once('./vies/common/side.php'); ?>
+        <?php include_once('../vies/common/side.php'); ?>
  
         <div class="main">
             <div class="main-header">
@@ -43,7 +43,7 @@ include_once('./utill.php');
         </div>
     </div>
  
-    <?php include_once('./vies/common/foot.php'); ?>
+    <?php include_once('../vies/common/foot.php'); ?>
 </body>
  
 </html>

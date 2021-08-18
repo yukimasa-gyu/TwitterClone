@@ -1,8 +1,8 @@
 <?php
 // 設定関連を読み込む
-include_once('./config.php');
+include_once('../config.php');
 // 便利な関数を読み込む
-include_once('./utill.php');
+include_once('../utill.php');
  
  
 ///////////////////////////////////////
@@ -26,14 +26,14 @@ $view_tweets = [
 <html lang="ja">
  
 <head>
-    <?php include_once('./vies/common/head.php'); ?>
+    <?php include_once('../vies/common/head.php'); ?>
     <title>プロフィール画面 / Twitterクローン</title>
     <meta name="description" content="プロフィール画面です">
 </head>
  
 <body class="home profile text-center">
     <div class="container">
-        <?php include_once('./vies/common/side.php'); ?>
+        <?php include_once('../vies/common/side.php'); ?>
  
         <div class="main">
             <div class="main-header">
@@ -106,7 +106,7 @@ $view_tweets = [
             <?php else : ?>
                 <div class="tweet-list">
                     <?php foreach ($view_tweets as $view_tweet) : ?>
-                        <?php include('./vies/common/tweet.php'); ?>
+                        <?php include('../vies/common/tweet.php'); ?>
                     <?php endforeach; ?>
                 </div>
             <?php endif; ?>
@@ -114,7 +114,7 @@ $view_tweets = [
         </div>
     </div>
  
-    <?php include_once('./vies/common/foot.php'); ?>
+    <?php include_once('../vies/common/foot.php'); ?>
 </body>
  
 </html>
